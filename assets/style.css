@@ -7,7 +7,7 @@
     
     .container{
         background-image: linear-gradient(to bottom, #220327, #d85eee);
-     
+        border-radius: 10px;
     }
     .title{
         font-size: 20px;
@@ -31,7 +31,7 @@
         margin: 10px 10px;
     }
     .header{
-         background-image: linear-gradient(to top, #0f0111, #651F71);
+         background-image: linear-gradient(to top, #210D24,#621E6D);
         color: white;
         padding: 20px;
         text-align: center;
@@ -41,11 +41,47 @@
        
     }
     .input{
-        margin: 10px;
+        margin: 20px;
         padding: 10px;
         border-radius: 5px;
         border: 1px solid #ccc;
         width: 300px;
         align-items: center;
         display: flex;
+        justify-content: center;
     }
+.card1{
+    background-image: linear-gradient(to top, #3E60EF,#73CEFF);
+    border-image: linear-gradient(to top, #342988,#2638DC);
+    border: 10px solid  transparent;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.card2{
+    background-image: linear-gradient(to top, #3E60EF,#73CEFF);
+    border-image: linear-gradient(to top, #342988,#2638DC);
+    border: 10px solid  transparent;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.card3{
+    background-image: linear-gradient(to top, #3E60EF,#73CEFF);
+    border-image: linear-gradient(to top, #342988,#2638DC);
+    border: 10px solid  transparent;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
